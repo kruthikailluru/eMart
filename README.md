@@ -1,13 +1,13 @@
-# E-Mart Frontend
+# E-Mart
+-by CodeBusters
 
-A React-based frontend application for the E-Mart e-commerce platform with full backend integration.
+A React-based application for the E-Mart e-commerce platform with full backend integration.
 
 ## Features
 
-- **Authentication System**: JWT-based authentication with role-based access control
+- **Authentication System**: Firebase-based authentication with role-based access control
 - **Product Management**: CRUD operations for products with approval workflow
 - **Order Management**: Complete order lifecycle management
-- **Payment Processing**: Integrated payment system with multiple payment methods
 - **Inventory Management**: Real-time inventory tracking and management
 - **Barcode System**: Product barcode generation and scanning
 - **Invoice Management**: Automated invoice generation and management
@@ -16,7 +16,7 @@ A React-based frontend application for the E-Mart e-commerce platform with full 
 
 ## Backend Integration
 
-This frontend is fully integrated with the Spring Boot backend API. The integration includes:
+This application is fully integrated with the Spring Boot backend API. The integration includes:
 
 ### API Services
 
@@ -30,7 +30,7 @@ This frontend is fully integrated with the Spring Boot backend API. The integrat
 
 ### Authentication & Authorization
 
-- JWT token-based authentication
+- Firebase-based authentication
 - Role-based access control (ADMIN, SUPPLIER, CUSTOMER)
 - Protected routes with automatic redirection
 - Token validation and automatic logout on expiration
@@ -72,7 +72,6 @@ The application will be available at `http://localhost:3000`
 
 Make sure the Spring Boot backend is running on port 8080 with the following configuration:
 
-- MongoDB database running on `localhost:27017`
 - JWT secret configured in `application.yml`
 - CORS configured to allow requests from `http://localhost:3000`
 
@@ -235,6 +234,50 @@ The application includes comprehensive error handling:
 />
 ```
 
+### WorkFlow
+**drive link:** https://drive.google.com/file/d/1w8V30qUuoUwBFcKO3wKXVTLUiCWRjhHJ/view?usp=sharing
+[Click here to view the file](https://drive.google.com/file/d/1w8V30qUuoUwBFcKO3wKXVTLUiCWRjhHJ/view?usp=sharing)
+
+### ScreenShots
+## Dashboard:
+![image](https://github.com/user-attachments/assets/2d48e788-fd7a-4d64-b41d-843276855bdd)
+
+
+## Login window:
+![image](https://github.com/user-attachments/assets/348b0f33-650e-4db5-aa5f-99ee310e2575)
+
+## Supplier workflow:
+![image](https://github.com/user-attachments/assets/a5afb084-eb8d-4f77-965d-afa24c3a9570)
+
+![image](https://github.com/user-attachments/assets/d216fc1f-a4c3-4144-a919-b3ee66e14079)
+
+![image](https://github.com/user-attachments/assets/1cccb710-9b43-4076-a1d2-29754cb60b7c)
+
+
+## Admin workflow:
+![image](https://github.com/user-attachments/assets/066d405a-f493-4e40-a286-06fb87148a3a)
+
+![image](https://github.com/user-attachments/assets/97765215-92c9-4719-bfe2-aa3e8d285b34)
+
+![image](https://github.com/user-attachments/assets/dc621171-f6f0-4713-94f7-a41ff1dd92ac)
+
+![image](https://github.com/user-attachments/assets/6cccf74a-2e50-4eaf-a78c-bd15bf733db6)
+
+
+## Suppliers Inventory Status when admin approves the product:
+![image](https://github.com/user-attachments/assets/0b26964b-98d0-440b-8ff9-ae1472719407)
+
+## Customers Workflow:
+![image](https://github.com/user-attachments/assets/e99d080a-eb36-43f1-a2e3-1b60f87613c7)
+
+![image](https://github.com/user-attachments/assets/7bc52ece-ad43-40d4-b024-6783a21d2535)
+
+![image](https://github.com/user-attachments/assets/e36ca8fc-590c-4a76-8ade-794c3acfa991)
+
+ 
+
+
+
 ## Troubleshooting
 
 ### Common Issues
@@ -256,6 +299,11 @@ Enable debug logging by setting `localStorage.debug = 'emart:*'` in browser cons
 4. Add tests if applicable
 5. Submit a pull request
 
+### Contributors
+  **@kruthikailluru**
+  **@mahitha63**
+  **@puneeth2004**
+  
 ## License
 
 This project is licensed under the MIT License.
