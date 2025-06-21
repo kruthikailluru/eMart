@@ -240,39 +240,39 @@ The application includes comprehensive error handling:
 
 ### ScreenShots
 ## Dashboard:
-![image](https://github.com/user-attachments/assets/2d48e788-fd7a-4d64-b41d-843276855bdd)
+![image](https://github.com/user-attachments/assets/729058d4-c7de-445f-a7ff-6771012ac059)
 
 
 ## Login window:
-![image](https://github.com/user-attachments/assets/348b0f33-650e-4db5-aa5f-99ee310e2575)
+![image](https://github.com/user-attachments/assets/e19a9d36-6182-4161-adbe-4bd59a6d8b75)
 
 ## Supplier workflow:
-![image](https://github.com/user-attachments/assets/a5afb084-eb8d-4f77-965d-afa24c3a9570)
+![image](https://github.com/user-attachments/assets/a3043c38-52a2-4a26-bf32-b0f76f0aec49)
 
-![image](https://github.com/user-attachments/assets/d216fc1f-a4c3-4144-a919-b3ee66e14079)
+![image](https://github.com/user-attachments/assets/73b7c0cc-52c0-47e7-a6fe-f6c5928e9463)
+![image](https://github.com/user-attachments/assets/6c40b243-66f8-4caa-a242-d65db1978e00)
 
-![image](https://github.com/user-attachments/assets/1cccb710-9b43-4076-a1d2-29754cb60b7c)
 
 
 ## Admin workflow:
-![image](https://github.com/user-attachments/assets/066d405a-f493-4e40-a286-06fb87148a3a)
+![image](https://github.com/user-attachments/assets/e80d445f-e757-4c84-8564-acd26262b4f8)
 
-![image](https://github.com/user-attachments/assets/97765215-92c9-4719-bfe2-aa3e8d285b34)
+![image](https://github.com/user-attachments/assets/b51c833f-bb46-42f8-b7fe-ac44eb039cfd)
 
-![image](https://github.com/user-attachments/assets/dc621171-f6f0-4713-94f7-a41ff1dd92ac)
+![image](https://github.com/user-attachments/assets/1b33a900-4b61-4ba9-8652-0aa965e644e3)
 
-![image](https://github.com/user-attachments/assets/6cccf74a-2e50-4eaf-a78c-bd15bf733db6)
+![image](https://github.com/user-attachments/assets/8c1238a8-e7da-4af6-bd8e-e23a2b131d0d)
+
 
 
 ## Suppliers Inventory Status when admin approves the product:
-![image](https://github.com/user-attachments/assets/0b26964b-98d0-440b-8ff9-ae1472719407)
+![image](https://github.com/user-attachments/assets/b6ab7bbd-a86a-4733-b35d-eff3234a4a4a)
+
 
 ## Customers Workflow:
-![image](https://github.com/user-attachments/assets/e99d080a-eb36-43f1-a2e3-1b60f87613c7)
-
-![image](https://github.com/user-attachments/assets/7bc52ece-ad43-40d4-b024-6783a21d2535)
-
-![image](https://github.com/user-attachments/assets/e36ca8fc-590c-4a76-8ade-794c3acfa991)
+![image](https://github.com/user-attachments/assets/3f9aef53-0642-4d62-9948-b33e4aec1c75)
+![image](https://github.com/user-attachments/assets/e6ad6e19-ca30-4c00-8261-f911907f6399)
+![image](https://github.com/user-attachments/assets/ba94659f-c7b6-47da-94f3-7819317ded16)
 
  
 
