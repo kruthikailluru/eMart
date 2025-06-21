@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global Page Styles */
+.page-container {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.gradient-background {
+  /* A dark, professional gradient overlay on top of a background image */
+  /*background: linear-gradient(135deg, rgba(20, 2, 44, 0.95), rgba(35, 8, 77, 0.95)), url('https://i.stockimg.com/image/1202883395-1024x1024.jpg');
+  */
+  background: linear-gradient(135deg, rgba(20, 2, 44, 0.95), rgba(35, 8, 77, 0.95)), url('./assets/mart_bg.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background static during scroll */
+  color: #f0f0f0; /* Sets a light base text color for readability */
+}

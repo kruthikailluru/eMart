@@ -1,0 +1,85 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  padding: 2.5rem;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent dark background */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.1em;
+}
+
+.login-form h2 {
+  margin-bottom: 2rem;
+  color: #e5e7eb;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.login-form input::placeholder {
+  color: #a0aec0;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #7c3aed; /* Vibrant purple from dashboard */
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.login-form button:hover {
+  background-color: #6d28d9; /* Darker purple */
+}
+
+.login-error { color: #dc2626; background: #fee2e2; border-radius: 6px; padding: 0.5rem; text-align: center; }
+.toast-notification { position: fixed; top: 30px; left: 50%; transform: translateX(-50%); background: #dc2626; color: #fff; padding: 1rem 2rem; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.12); font-weight: 600; z-index: 1000; animation: fadeInOut 3s linear; }
+@keyframes fadeInOut { 0% { opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { opacity: 0; } }
+
+.login-background {
+  background: linear-gradient(135deg, #2d042f, #6c0a52, #a9166e, #e03a84, #ff6b9a, #ff9f8a, #ffce7a), url('./mart_bg.jpg');
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} 

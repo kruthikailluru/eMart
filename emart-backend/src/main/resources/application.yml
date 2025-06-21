@@ -1,0 +1,60 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: emart-backend
+  
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/emart_db
+      database: emart_db
+  
+  security:
+    jwt:
+      secret: emartSecretKey2024ForJWTTokenGenerationAndValidation
+      expiration: 86400000 # 24 hours in milliseconds
+  
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_USERNAME:your-email@gmail.com}
+    password: ${EMAIL_PASSWORD:your-app-password}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+# PDF Configuration
+pdf:
+  output:
+    directory: ./generated-pdfs
+  signature:
+    certificate:
+      path: ./certificates/admin-certificate.p12
+      password: ${CERT_PASSWORD:admin123}
+
+# Barcode Configuration
+barcode:
+  format: CODE_128
+  width: 300
+  height: 100
+
+# CORS Configuration
+cors:
+  allowed-origins: http://localhost:3000
+  allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+  allowed-headers: "*"
+  allow-credentials: true
+
+# Logging Configuration
+logging:
+  level:
+    com.emart: DEBUG
+    org.springframework.security: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n" 

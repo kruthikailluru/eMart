@@ -1,0 +1,14 @@
+/* Rules Category Background */
+body {
+  background: linear-gradient(135deg, rgba(20, 2, 44, 0.95), rgba(35, 8, 77, 0.95)), url('./mart_bg.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.rules-category-container { max-width: 600px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+.category-section, .rules-section { margin-bottom: 2rem; }
+.category-section ul, .rules-section ul { margin: 0 0 1rem 0; padding: 0; list-style: disc inside; }
+.category-section form, .rules-section form { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.category-section input, .rules-section input { flex: 1; padding: 0.5rem; border-radius: 6px; border: 1px solid #e5e7eb; } 
